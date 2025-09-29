@@ -1,0 +1,145 @@
+/* ==============================
+   Global Styles
+============================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8e7;
+  color: #333;
+  text-align: center;
+}
+
+/* ==============================
+   Header & Navigation
+============================== */
+header {
+  background: #d63384;
+  color: white;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==============================
+   Hero Section
+============================== */
+.hero {
+  background: url('../images/festival-banner.jpg') no-repeat center center/cover;
+  color: #d214b9;
+  padding: 40px 20px;
+  font-size: 20px;
+}
+
+/* ==============================
+   Sections
+============================== */
+section {
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+/* ==============================
+   Gallery
+============================== */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(190, 168, 44, 0.786);
+}
+
+/* ==============================
+   Profile Image (About Me)
+============================== */
+.profile-pic {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 15%;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.796);
+}
+
+/* ==============================
+   Footer
+============================== */
+footer {
+  background: #333;
+  color: white;
+  padding: 15px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer strong {
+  color: #ffcc00;
+  font-size: 18px;
+}
+
+/* ==============================
+   Responsive Styles for Mobile & Tablets
+============================== */
+
+/* Phones */
+@media only screen and (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .hero {
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  section {
+    padding: 20px 10px;
+    font-size: 16px;
+  }
+
+  .gallery img {
+    max-width: 90%;
+  }
+
+  .profile-pic {
+    max-width: 90%;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  nav a {
+    margin: 0 15px;
+    font-size: 16px;
+  }
+
+  .gallery img {
+    max-width: 220px;
+  }
+
+  .profile-pic {
+    max-width: 400px;
+  }
+}
