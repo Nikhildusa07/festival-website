@@ -32,11 +32,11 @@ It is designed to be **fully responsive**, so it works seamlessly on **mobile ph
 3. Navigate through pages to explore Bathukamma and Dasara culture.
 
 ## Live Demo
-
-The website is hosted on **GitHub Pages**:  
-[https://YOUR_USERNAME.github.io/festival-website/](https://YOUR_USERNAME.github.io/festival-website/)
+  
+[check live demo](https://nikhildusa07.github.io/festival-website/)
 
 ## Author
 
 **Nikhil Dusa**  
 Wishing everyone a very happy Bathukamma & Dasara! 🌸🪔
+
